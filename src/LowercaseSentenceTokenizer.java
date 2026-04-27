@@ -36,10 +36,11 @@ public class LowercaseSentenceTokenizer implements Tokenizer {
     //first pass, don't need to worry about periods or capitalization
     while(scanner.hasNext()) {
 
+        tokens.add(scanner.next());
     }
 
 
-    return null;
+    return tokens;
   }
 }
 
