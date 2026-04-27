@@ -16,9 +16,10 @@ class LowercaseSentenceTokenizerTest {
     }
 
     // Wave 2
-    /*
-     * Write your test here!
-     */
+    @Test
+    void testTokenizeWithManySpaces() {
+        
+    }
     
 
     // Wave 3
